@@ -7,6 +7,7 @@ url="https://gitlab.com/bakeryos/bakeryos-logo"
 license=("GPL-3.0-or-later")
 source=("LICENSE" "README.md")
 sha256sums=('SKIP' 'SKIP')
+options=(!debug !strip)
 
 prepare() {
     cp -r ../usr "${srcdir}/"
