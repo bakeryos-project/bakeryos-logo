@@ -1,9 +1,9 @@
 pkgname=bakeryos-logo
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="Logo of BakeryOS"
 arch=('any')
-url="https://gitlab.com/bakeryos/bakeryos-logo"
+url="https://github.com/bakeryos-project/bakeryos-logo"
 license=("GPL-3.0-or-later")
 source=("LICENSE" "README.md")
 sha256sums=('SKIP' 'SKIP')
