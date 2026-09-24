@@ -1,5 +1,5 @@
 pkgname=bakeryos-logo
-pkgver=1.0.2
+pkgver=1.0.3
 pkgrel=1
 pkgdesc="Logo of BakeryOS"
 arch=('any')
