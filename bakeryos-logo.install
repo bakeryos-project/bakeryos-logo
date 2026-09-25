@@ -1,0 +1,8 @@
+post_install() {
+     cp -r /usr/share/bakeryos/logo/bakeryos-logo.png /usr/share/pixmaps/bakeryos-logo.png
+     cp -r /usr/share/bakeryos/logo/bakeryos-logo.svg /usr/share/pixmaps/bakeryos-logo.svg
+}
+
+post_upgrade(){
+    post_install
+}
