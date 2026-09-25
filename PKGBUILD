@@ -21,6 +21,6 @@ package() {
         install -Dm644 "$img" "${pkgdir}/usr/share/bakeryos/logo/$(basename "$img")"
         fi
     done
-    install -Dm644 "${srcdir}/LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+    install -Dm644 "${startdir}/LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
 

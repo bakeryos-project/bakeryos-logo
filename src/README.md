@@ -1,1 +1,0 @@
-/home/smtdfc/Projects/BakeryOS-Project/bakeryos-logo/README.md
